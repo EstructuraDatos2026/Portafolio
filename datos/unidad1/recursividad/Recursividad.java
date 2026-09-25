@@ -12,6 +12,11 @@ public class Recursividad {
         }
     }
 
+    /**
+    *Funcion que realiza cuenta regresiva de acuerdo a un valor entero.
+    *Fecha: 25 Septiembre
+    *Autor: Luis Hernández
+    **/
     public static void cuentaRegresiva(int n) {
            if(n < 1){
                    return;
