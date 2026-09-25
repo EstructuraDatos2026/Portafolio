@@ -12,7 +12,22 @@ public class Recursividad {
         }
     }
 
+    /**
+    *Funcion que realiza cuenta regresiva de acuerdo a un valor entero.
+    *Fecha: 25 Septiembre
+    *Autor: Luis Hernández
+    **/
+    public static void cuentaRegresiva(int n) {
+           if(n < 1){
+                   return;
+           } else {
+                   System.out.println(n);
+                   cuentaRegresiva(n-1);
+           }
+    }
+
     public static void main(String[] a) {
         saludo(10, "Fernando");
+        cuentaRegresiva(100);
     }
 }
